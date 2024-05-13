@@ -1,0 +1,42 @@
+@import url(./reset.css);
+@import url(./global.css);
+
+body {
+    background-color: #f8f9fa;
+}
+
+.div-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    max-width: 1024px;
+    width: 700px;
+    margin-top: 1rem;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.div-container img {
+    max-width: 18rem;
+}
+
+.register-container {
+    padding-inline: 0.5rem;
+    width: 22rem;
+}
+
+.register-container h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.btn-register {
+    width: 100%;
+}

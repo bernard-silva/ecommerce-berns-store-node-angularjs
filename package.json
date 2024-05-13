@@ -1,0 +1,28 @@
+{
+  "name": "berns-store",
+  "version": "1.0.0",
+  "description": "Ecommerce Berns Store",
+  "main": "index.js",
+  "keywords": [],
+  "author": "Bernard Silva",
+  "license": "ISC",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon --experimental-modules --es-module-specifier-resolution=node src/index.js"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.13.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "jwt-decode": "^4.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0",
+    "prisma": "^5.13.0"
+  },
+  "prisma": {
+    "seed": "node prisma/seed.js"
+  }
+}

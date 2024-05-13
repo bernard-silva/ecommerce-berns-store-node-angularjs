@@ -1,0 +1,37 @@
+@import url(./reset.css);
+
+body {
+    background-color: #b7e4c7 !important;
+}
+
+.header {
+    background-color: #6ad4b2 !important;
+}
+
+.nav-link {
+    color: #3a3a3a;
+}
+
+.nav-link:hover {
+    color: #000;
+}
+
+.dropdown-menu {
+    background-color: #9decd3;
+}
+
+.dropdown-item:hover {
+    background-color: #9decd3;
+    font-weight: 500;
+}
+
+footer {
+    height: 32px;
+    background-color: #212529;
+    color: #fff;
+    text-align: center;
+    padding: 4px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

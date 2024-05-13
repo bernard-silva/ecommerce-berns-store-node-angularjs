@@ -1,0 +1,41 @@
+@import url(./reset.css);
+
+body {
+    background-color: tomato !important;
+}
+
+.header {
+    background-color: rgb(253, 76, 45) !important;
+}
+
+.navbar-brand img {
+    border-radius: 4px;
+}
+
+.nav-link {
+    color: #3a3a3a;
+}
+
+.nav-link:hover {
+    color: #000;
+}
+
+.dropdown-menu {
+    background-color: tomato;
+}
+
+.dropdown-item:hover {
+    background-color: tomato;
+    font-weight: 500;
+}
+
+footer {
+    height: 32px;
+    background-color: #212529;
+    color: #fff;
+    text-align: center;
+    padding: 4px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
