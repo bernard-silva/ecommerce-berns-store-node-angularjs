@@ -126,7 +126,7 @@ npm run dev
 - Created the seed.js script to initially load data and resources for system
 - In addition to installing `cors` and `jsonwebtoken`, `jwt-decode` was also installed, where:
      - The `index.js` file was copied from the `build/esm` root into the `/public/assets/js/lib/jwt-decode.js` directory
-- Several command lines used during development, [**check documentation here**](.github/docs/COMMAND-LINES-en-US.md.md)
+- Several command lines used during development, [**check documentation here**](.github/docs/COMMAND-LINES-en-US.md)
 
 ## 🖥️ How to run locally? <a name = "running_en"></a>
 
